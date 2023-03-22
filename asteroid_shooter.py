@@ -1,6 +1,10 @@
 import pygame, sys
 from random import randint, uniform
 
+# Authors
+# All code is from the course "Learn Python by making games" by Christian Koch.
+# The link for the course is : https://www.udemy.com/course/learn-python-by-making-games/
+
 def laser_update(laser_list, speed = 300):
     for laser in laser_list:
         laser.y -= speed * dt
